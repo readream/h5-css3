@@ -21,10 +21,10 @@ window.onload = function () {
   music.onclick = function () {
     if (audio.paused) {
       audio.play();
-      music.style.background = "url(img/musicon.gif)";
+      music.style.background = "url(images/musicon.gif)";
     } else {
       audio.pause();
-      music.style.background = "url(img/musicoff.gif)";
+      music.style.background = "url(images/musicoff.gif)";
     }
   }
   // 出入场
